@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "Dummy",
     dependencies: [
-        .Package(url: "https://github.com/masonmark/Mason.swift", majorVersion: 3),
+        .Package(url: "https://github.com/masonmark/Mason.swift", majorVersion: 4),
     ],
     exclude: [
         "MasonTestApp",
