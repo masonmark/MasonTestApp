@@ -11,6 +11,18 @@
 		939BFEB71C9CEE2D00DA233C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939BFEB61C9CEE2D00DA233C /* Assets.xcassets */; };
 		939BFEBA1C9CEE2D00DA233C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939BFEB81C9CEE2D00DA233C /* MainMenu.xib */; };
 		939BFEC51C9CEE2D00DA233C /* MasonTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEC41C9CEE2D00DA233C /* MasonTestAppTests.swift */; };
+		939BFEDB1C9CF04600DA233C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEDA1C9CF04600DA233C /* Task.swift */; };
+		939BFEDC1C9CFE5A00DA233C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEDA1C9CF04600DA233C /* Task.swift */; };
+		939BFEDD1C9CFE5D00DA233C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED61C9CEFF100DA233C /* Keychain.swift */; };
+		939BFEDE1C9CFE5D00DA233C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED61C9CEFF100DA233C /* Keychain.swift */; };
+		939BFEDF1C9CFE6000DA233C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED71C9CEFF100DA233C /* Mason.swift */; };
+		939BFEE01C9CFE6000DA233C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED71C9CEFF100DA233C /* Mason.swift */; };
+		939BFEE21C9CFF5200DA233C /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEE11C9CFF5200DA233C /* Dummy.swift */; };
+		939BFEEA1C9D011200DA233C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEE91C9D011200DA233C /* main.swift */; };
+		939BFEEE1C9D013900DA233C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED71C9CEFF100DA233C /* Mason.swift */; };
+		939BFEEF1C9D013C00DA233C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED61C9CEFF100DA233C /* Keychain.swift */; };
+		939BFEF01C9D014000DA233C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEDA1C9CF04600DA233C /* Task.swift */; };
+		939BFEF21C9D101500DA233C /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEF11C9D101500DA233C /* TaskTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +35,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		939BFEE51C9D011200DA233C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		939BFEB11C9CEE2C00DA233C /* MasonTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939BFEB41C9CEE2D00DA233C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +56,17 @@
 		939BFEC01C9CEE2D00DA233C /* MasonTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		939BFEC41C9CEE2D00DA233C /* MasonTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonTestAppTests.swift; sourceTree = "<group>"; };
 		939BFEC61C9CEE2D00DA233C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939BFED01C9CEEBA00DA233C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		939BFED31C9CEFF100DA233C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		939BFED41C9CEFF100DA233C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		939BFED61C9CEFF100DA233C /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		939BFED71C9CEFF100DA233C /* Mason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mason.swift; sourceTree = "<group>"; };
+		939BFED91C9CEFF100DA233C /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
+		939BFEDA1C9CF04600DA233C /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		939BFEE11C9CFF5200DA233C /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		939BFEE71C9D011200DA233C /* MasonTestTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MasonTestTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		939BFEE91C9D011200DA233C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		939BFEF11C9D101500DA233C /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,14 +84,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		939BFEE41C9D011200DA233C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		939BFEA81C9CEE2C00DA233C = {
 			isa = PBXGroup;
 			children = (
+				939BFED01C9CEEBA00DA233C /* Package.swift */,
+				939BFEE11C9CFF5200DA233C /* Dummy.swift */,
 				939BFEB31C9CEE2C00DA233C /* MasonTestApp */,
 				939BFEC31C9CEE2D00DA233C /* MasonTestAppTests */,
+				939BFED11C9CEFF100DA233C /* Packages */,
+				939BFEE81C9D011200DA233C /* MasonTestTool */,
 				939BFEB21C9CEE2C00DA233C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +112,7 @@
 			children = (
 				939BFEB11C9CEE2C00DA233C /* MasonTestApp.app */,
 				939BFEC01C9CEE2D00DA233C /* MasonTestAppTests.xctest */,
+				939BFEE71C9D011200DA233C /* MasonTestTool */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +137,52 @@
 			path = MasonTestAppTests;
 			sourceTree = "<group>";
 		};
+		939BFED11C9CEFF100DA233C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				939BFED21C9CEFF100DA233C /* Mason-3.0.0 */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		939BFED21C9CEFF100DA233C /* Mason-3.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				939BFED31C9CEFF100DA233C /* .gitignore */,
+				939BFED41C9CEFF100DA233C /* Package.swift */,
+				939BFED51C9CEFF100DA233C /* Sources */,
+				939BFED81C9CEFF100DA233C /* Tests */,
+			);
+			path = "Mason-3.0.0";
+			sourceTree = "<group>";
+		};
+		939BFED51C9CEFF100DA233C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				939BFED61C9CEFF100DA233C /* Keychain.swift */,
+				939BFED71C9CEFF100DA233C /* Mason.swift */,
+				939BFEDA1C9CF04600DA233C /* Task.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		939BFED81C9CEFF100DA233C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				939BFED91C9CEFF100DA233C /* KeychainTests.swift */,
+				939BFEF11C9D101500DA233C /* TaskTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		939BFEE81C9D011200DA233C /* MasonTestTool */ = {
+			isa = PBXGroup;
+			children = (
+				939BFEE91C9D011200DA233C /* main.swift */,
+			);
+			path = MasonTestTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 939BFEC91C9CEE2D00DA233C /* Build configuration list for PBXNativeTarget "MasonTestApp" */;
 			buildPhases = (
+				939BFECF1C9CEE5800DA233C /* Run "swift build" to satisfy dependencies via the Swift Package Manager */,
 				939BFEAD1C9CEE2C00DA233C /* Sources */,
 				939BFEAE1C9CEE2C00DA233C /* Frameworks */,
 				939BFEAF1C9CEE2C00DA233C /* Resources */,
@@ -128,6 +222,23 @@
 			productReference = 939BFEC01C9CEE2D00DA233C /* MasonTestAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		939BFEE61C9D011200DA233C /* MasonTestTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939BFEEB1C9D011200DA233C /* Build configuration list for PBXNativeTarget "MasonTestTool" */;
+			buildPhases = (
+				939BFEE31C9D011200DA233C /* Sources */,
+				939BFEE41C9D011200DA233C /* Frameworks */,
+				939BFEE51C9D011200DA233C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasonTestTool;
+			productName = MasonTestTool;
+			productReference = 939BFEE71C9D011200DA233C /* MasonTestTool */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -144,6 +255,9 @@
 					939BFEBF1C9CEE2D00DA233C = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 939BFEB01C9CEE2C00DA233C;
+					};
+					939BFEE61C9D011200DA233C = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -162,6 +276,7 @@
 			targets = (
 				939BFEB01C9CEE2C00DA233C /* MasonTestApp */,
 				939BFEBF1C9CEE2D00DA233C /* MasonTestAppTests */,
+				939BFEE61C9D011200DA233C /* MasonTestTool */,
 			);
 		};
 /* End PBXProject section */
@@ -185,12 +300,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		939BFECF1C9CEE5800DA233C /* Run "swift build" to satisfy dependencies via the Swift Package Manager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run \"swift build\" to satisfy dependencies via the Swift Package Manager";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"--- ⚠︎ EXPERIMENTAL HACK ALERT\"\necho \"--- Attempting to run the pre-release Swift 3 'swift build' command\"\necho \"--- to (if necessary) automatically download dependencies. This\"\necho \"--- means you need the pre-release Swift 3 toolchain downloaded and\"\necho \"--- installed in such a way that the following command will work.\"\necho \"--- (This will undoubtedly break at some point in the future and\"\necho \"--- require some manual intervention to fix things. C'est la vie.)\"\necho \"--- \"\necho \"---     — Mason 2016-03-10\"\necho \"--- \"\necho \"--- Will now attempt to run this command:\"\necho \"--- \"\necho \"--- /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift build\"\n\n/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift build\n\n# Mason 2016-03-10: Note that we are not using that toolchain to build. We are using the default Xcode toolchain for that. We are just using the pre-release Swift 3 toolchain to get access to Swift Package Manager, which we are only using for its automatic dependency resolution. THIS IS ALL TOTALLY EXPERIMENTAL STILL BRO";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		939BFEAD1C9CEE2C00DA233C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939BFEDF1C9CFE6000DA233C /* Mason.swift in Sources */,
+				939BFEDB1C9CF04600DA233C /* Task.swift in Sources */,
+				939BFEE21C9CFF5200DA233C /* Dummy.swift in Sources */,
 				939BFEB51C9CEE2D00DA233C /* AppDelegate.swift in Sources */,
+				939BFEDD1C9CFE5D00DA233C /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +334,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939BFEF21C9D101500DA233C /* TaskTests.swift in Sources */,
+				939BFEE01C9CFE6000DA233C /* Mason.swift in Sources */,
+				939BFEDC1C9CFE5A00DA233C /* Task.swift in Sources */,
 				939BFEC51C9CEE2D00DA233C /* MasonTestAppTests.swift in Sources */,
+				939BFEDE1C9CFE5D00DA233C /* Keychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939BFEE31C9D011200DA233C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939BFEF01C9D014000DA233C /* Task.swift in Sources */,
+				939BFEEE1C9D013900DA233C /* Mason.swift in Sources */,
+				939BFEEA1C9D011200DA233C /* main.swift in Sources */,
+				939BFEEF1C9D013C00DA233C /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +507,20 @@
 			};
 			name = Release;
 		};
+		939BFEEC1C9D011200DA233C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		939BFEED1C9D011200DA233C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -381,6 +546,14 @@
 			buildConfigurations = (
 				939BFECD1C9CEE2D00DA233C /* Debug */,
 				939BFECE1C9CEE2D00DA233C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		939BFEEB1C9D011200DA233C /* Build configuration list for PBXNativeTarget "MasonTestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939BFEEC1C9D011200DA233C /* Debug */,
+				939BFEED1C9D011200DA233C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

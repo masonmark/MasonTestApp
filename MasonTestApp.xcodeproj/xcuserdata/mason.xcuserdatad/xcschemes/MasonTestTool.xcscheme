@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "939BFEB01C9CEE2C00DA233C"
-               BuildableName = "MasonTestApp.app"
-               BlueprintName = "MasonTestApp"
+               BlueprintIdentifier = "939BFEE61C9D011200DA233C"
+               BuildableName = "MasonTestTool"
+               BlueprintName = "MasonTestTool"
                ReferencedContainer = "container:MasonTestApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "939BFEBF1C9CEE2D00DA233C"
-               BuildableName = "MasonTestAppTests.xctest"
-               BlueprintName = "MasonTestAppTests"
-               ReferencedContainer = "container:MasonTestApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "939BFEB01C9CEE2C00DA233C"
-            BuildableName = "MasonTestApp.app"
-            BlueprintName = "MasonTestApp"
+            BlueprintIdentifier = "939BFEE61C9D011200DA233C"
+            BuildableName = "MasonTestTool"
+            BlueprintName = "MasonTestTool"
             ReferencedContainer = "container:MasonTestApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "939BFEB01C9CEE2C00DA233C"
-            BuildableName = "MasonTestApp.app"
-            BlueprintName = "MasonTestApp"
+            BlueprintIdentifier = "939BFEE61C9D011200DA233C"
+            BuildableName = "MasonTestTool"
+            BlueprintName = "MasonTestTool"
             ReferencedContainer = "container:MasonTestApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -84,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "939BFEB01C9CEE2C00DA233C"
-            BuildableName = "MasonTestApp.app"
-            BlueprintName = "MasonTestApp"
+            BlueprintIdentifier = "939BFEE61C9D011200DA233C"
+            BuildableName = "MasonTestTool"
+            BlueprintName = "MasonTestTool"
             ReferencedContainer = "container:MasonTestApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

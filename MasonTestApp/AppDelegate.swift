@@ -1,12 +1,7 @@
-//
-//  AppDelegate.swift
-//  MasonTestApp
-//
-//  Created by mason on 2016-03-19.
-//  Copyright © 2016 MASONMARK.COM. All rights reserved.
-//
+// AppDelegate.swift Created by mason on 2016-03-19. Copyright © 2016 MASONMARK.COM. All rights reserved.
 
 import Cocoa
+
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -16,6 +11,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        
+        let whoami = Task.run("/usr/bin/whoami")
+        print("f.u., \(whoami.stdoutText)")
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

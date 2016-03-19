@@ -1,10 +1,4 @@
-//
-//  MasonTestAppTests.swift
-//  MasonTestAppTests
-//
-//  Created by mason on 2016-03-19.
-//  Copyright © 2016 MASONMARK.COM. All rights reserved.
-//
+// MasonTestAppTests.swift Created by mason on 2016-03-19. Copyright © 2016 MASONMARK.COM. All rights reserved.
 
 import XCTest
 @testable import MasonTestApp
