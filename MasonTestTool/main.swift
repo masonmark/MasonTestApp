@@ -4,8 +4,8 @@ import Foundation
 
 print("Hello!")
 
-let fart = Task.run("/sbin/ping", arguments: ["-c", "1", "masonmark.com"])
+let ping = Task.run("/sbin/ping", arguments: ["-c", "1", "masonmark.com"])
 
-print( fart )
+print( ping )
 
 print("Goodbye!!")
