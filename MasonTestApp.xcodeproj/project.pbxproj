@@ -48,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		93755B841C9E330500E575D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		939BFEB11C9CEE2C00DA233C /* MasonTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939BFEB41C9CEE2D00DA233C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		939BFEB61C9CEE2D00DA233C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		939BFEA81C9CEE2C00DA233C = {
 			isa = PBXGroup;
 			children = (
+				93755B841C9E330500E575D5 /* README.md */,
 				939BFED01C9CEEBA00DA233C /* Package.swift */,
 				939BFEE11C9CFF5200DA233C /* Dummy.swift */,
 				939BFEB31C9CEE2C00DA233C /* MasonTestApp */,
