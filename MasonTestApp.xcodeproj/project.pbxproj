@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932D2BC91D5314A500AA6713 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC61D5314A500AA6713 /* Keychain.swift */; };
+		932D2BCA1D5314A500AA6713 /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC71D5314A500AA6713 /* Mason.swift */; };
+		932D2BCB1D5314A500AA6713 /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC81D5314A500AA6713 /* TaskWrapper.swift */; };
+		932D2BD01D531E8100AA6713 /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BCC1D5314B000AA6713 /* KeychainTests.swift */; };
+		932D2BD11D531E8100AA6713 /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BCD1D5314B000AA6713 /* TaskTests.swift */; };
+		932D2BD21D5320D000AA6713 /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC81D5314A500AA6713 /* TaskWrapper.swift */; };
+		932D2BD31D53210200AA6713 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC61D5314A500AA6713 /* Keychain.swift */; };
+		932D2BD41D53210300AA6713 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC61D5314A500AA6713 /* Keychain.swift */; };
+		932D2BD51D53210600AA6713 /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC71D5314A500AA6713 /* Mason.swift */; };
+		932D2BD61D53210600AA6713 /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC71D5314A500AA6713 /* Mason.swift */; };
+		932D2BD71D53210900AA6713 /* TaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D2BC81D5314A500AA6713 /* TaskWrapper.swift */; };
 		939BFEB51C9CEE2D00DA233C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEB41C9CEE2D00DA233C /* AppDelegate.swift */; };
 		939BFEB71C9CEE2D00DA233C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939BFEB61C9CEE2D00DA233C /* Assets.xcassets */; };
 		939BFEBA1C9CEE2D00DA233C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939BFEB81C9CEE2D00DA233C /* MainMenu.xib */; };
 		939BFEC51C9CEE2D00DA233C /* MasonTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEC41C9CEE2D00DA233C /* MasonTestAppTests.swift */; };
-		939BFEDB1C9CF04600DA233C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEDA1C9CF04600DA233C /* Task.swift */; };
-		939BFEDC1C9CFE5A00DA233C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEDA1C9CF04600DA233C /* Task.swift */; };
-		939BFEDD1C9CFE5D00DA233C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED61C9CEFF100DA233C /* Keychain.swift */; };
-		939BFEDE1C9CFE5D00DA233C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED61C9CEFF100DA233C /* Keychain.swift */; };
-		939BFEDF1C9CFE6000DA233C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED71C9CEFF100DA233C /* Mason.swift */; };
-		939BFEE01C9CFE6000DA233C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED71C9CEFF100DA233C /* Mason.swift */; };
 		939BFEE21C9CFF5200DA233C /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEE11C9CFF5200DA233C /* Dummy.swift */; };
 		939BFEEA1C9D011200DA233C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEE91C9D011200DA233C /* main.swift */; };
-		939BFEEE1C9D013900DA233C /* Mason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED71C9CEFF100DA233C /* Mason.swift */; };
-		939BFEEF1C9D013C00DA233C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFED61C9CEFF100DA233C /* Keychain.swift */; };
-		939BFEF01C9D014000DA233C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEDA1C9CF04600DA233C /* Task.swift */; };
-		939BFEF21C9D101500DA233C /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939BFEF11C9D101500DA233C /* TaskTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		932D2BC61D5314A500AA6713 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		932D2BC71D5314A500AA6713 /* Mason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mason.swift; sourceTree = "<group>"; };
+		932D2BC81D5314A500AA6713 /* TaskWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskWrapper.swift; sourceTree = "<group>"; };
+		932D2BCC1D5314B000AA6713 /* KeychainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
+		932D2BCD1D5314B000AA6713 /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
 		93755B841C9E330500E575D5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		939BFEB11C9CEE2C00DA233C /* MasonTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939BFEB41C9CEE2D00DA233C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,14 +66,9 @@
 		939BFED01C9CEEBA00DA233C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		939BFED31C9CEFF100DA233C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		939BFED41C9CEFF100DA233C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		939BFED61C9CEFF100DA233C /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
-		939BFED71C9CEFF100DA233C /* Mason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mason.swift; sourceTree = "<group>"; };
-		939BFED91C9CEFF100DA233C /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
-		939BFEDA1C9CF04600DA233C /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		939BFEE11C9CFF5200DA233C /* Dummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		939BFEE71C9D011200DA233C /* MasonTestTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MasonTestTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		939BFEE91C9D011200DA233C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		939BFEF11C9D101500DA233C /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,12 +143,12 @@
 		939BFED11C9CEFF100DA233C /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				939BFED21C9CEFF100DA233C /* Mason-4.0.1 */,
+				939BFED21C9CEFF100DA233C /* Mason-5.0.0 */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
 		};
-		939BFED21C9CEFF100DA233C /* Mason-4.0.1 */ = {
+		939BFED21C9CEFF100DA233C /* Mason-5.0.0 */ = {
 			isa = PBXGroup;
 			children = (
 				939BFED31C9CEFF100DA233C /* .gitignore */,
@@ -155,15 +156,15 @@
 				939BFED51C9CEFF100DA233C /* Sources */,
 				939BFED81C9CEFF100DA233C /* Tests */,
 			);
-			path = "Mason-4.0.1";
+			path = "Mason-5.0.0";
 			sourceTree = "<group>";
 		};
 		939BFED51C9CEFF100DA233C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				939BFED61C9CEFF100DA233C /* Keychain.swift */,
-				939BFED71C9CEFF100DA233C /* Mason.swift */,
-				939BFEDA1C9CF04600DA233C /* Task.swift */,
+				932D2BC61D5314A500AA6713 /* Keychain.swift */,
+				932D2BC71D5314A500AA6713 /* Mason.swift */,
+				932D2BC81D5314A500AA6713 /* TaskWrapper.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -171,8 +172,8 @@
 		939BFED81C9CEFF100DA233C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				939BFED91C9CEFF100DA233C /* KeychainTests.swift */,
-				939BFEF11C9D101500DA233C /* TaskTests.swift */,
+				932D2BCC1D5314B000AA6713 /* KeychainTests.swift */,
+				932D2BCD1D5314B000AA6713 /* TaskTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -248,18 +249,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = MASONMARK.COM;
 				TargetAttributes = {
 					939BFEB01C9CEE2C00DA233C = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 					939BFEBF1C9CEE2D00DA233C = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 939BFEB01C9CEE2C00DA233C;
 					};
 					939BFEE61C9D011200DA233C = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -315,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"--- ⚠︎ EXPERIMENTAL HACK ALERT\"\necho \"--- Attempting to run the pre-release Swift 3 'swift build' command\"\necho \"--- to (if necessary) automatically download dependencies. This\"\necho \"--- means you need the pre-release Swift 3 toolchain downloaded and\"\necho \"--- installed in such a way that the following command will work.\"\necho \"--- (This will undoubtedly break at some point in the future and\"\necho \"--- require some manual intervention to fix things. C'est la vie.)\"\necho \"--- \"\necho \"---     — Mason 2016-03-10\"\necho \"--- \"\necho \"--- Will now attempt to run this command:\"\necho \"--- \"\necho \"--- /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift build\"\n\n/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin/swift build\n\n# Mason 2016-03-10: Note that we are not using that toolchain to build. We are using the default Xcode toolchain for that. We are just using the pre-release Swift 3 toolchain to get access to Swift Package Manager, which we are only using for its automatic dependency resolution. THIS IS ALL TOTALLY EXPERIMENTAL STILL BRO";
+			shellScript = "echo \"--- ⚠︎ EXPERIMENTAL HACK ALERT\"\necho \"--- Attempting to run the pre-release Swift 3 'swift build' command\"\necho \"--- to (if necessary) automatically download dependencies. This\"\necho \"--- means you need the pre-release Swift 3 toolchain downloaded and\"\necho \"--- installed in such a way that the following command will work.\"\necho \"--- (This will undoubtedly break at some point in the future and\"\necho \"--- require some manual intervention to fix things. C'est la vie.)\"\necho \"--- \"\necho \"---     — Mason 2016-03-10\"\necho \"--- \"\necho \"--- Will now attempt to run this command:\"\necho \"--- \"\necho \"--- swift build\"\n\nswift build\n\n# Mason 2016-03-10: Note that we are not using that toolchain to build. We are using the default Xcode toolchain for that. We are just using the pre-release Swift 3 toolchain to get access to Swift Package Manager, which we are only using for its automatic dependency resolution. THIS IS ALL TOTALLY EXPERIMENTAL STILL BRO\n\n# Mason 2016-08-04: But now we just expect/insist that swift → Swift 3\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -324,11 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939BFEDF1C9CFE6000DA233C /* Mason.swift in Sources */,
-				939BFEDB1C9CF04600DA233C /* Task.swift in Sources */,
+				932D2BCB1D5314A500AA6713 /* TaskWrapper.swift in Sources */,
+				932D2BCA1D5314A500AA6713 /* Mason.swift in Sources */,
 				939BFEE21C9CFF5200DA233C /* Dummy.swift in Sources */,
 				939BFEB51C9CEE2D00DA233C /* AppDelegate.swift in Sources */,
-				939BFEDD1C9CFE5D00DA233C /* Keychain.swift in Sources */,
+				932D2BC91D5314A500AA6713 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,11 +340,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939BFEF21C9D101500DA233C /* TaskTests.swift in Sources */,
-				939BFEE01C9CFE6000DA233C /* Mason.swift in Sources */,
-				939BFEDC1C9CFE5A00DA233C /* Task.swift in Sources */,
+				932D2BD51D53210600AA6713 /* Mason.swift in Sources */,
 				939BFEC51C9CEE2D00DA233C /* MasonTestAppTests.swift in Sources */,
-				939BFEDE1C9CFE5D00DA233C /* Keychain.swift in Sources */,
+				932D2BD41D53210300AA6713 /* Keychain.swift in Sources */,
+				932D2BD01D531E8100AA6713 /* KeychainTests.swift in Sources */,
+				932D2BD71D53210900AA6713 /* TaskWrapper.swift in Sources */,
+				932D2BD11D531E8100AA6713 /* TaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,10 +353,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939BFEF01C9D014000DA233C /* Task.swift in Sources */,
-				939BFEEE1C9D013900DA233C /* Mason.swift in Sources */,
+				932D2BD61D53210600AA6713 /* Mason.swift in Sources */,
+				932D2BD21D5320D000AA6713 /* TaskWrapper.swift in Sources */,
 				939BFEEA1C9D011200DA233C /* main.swift in Sources */,
-				939BFEEF1C9D013C00DA233C /* Keychain.swift in Sources */,
+				932D2BD31D53210200AA6713 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,8 +396,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -436,8 +443,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -468,6 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masonmark.MasonTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -480,6 +490,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masonmark.MasonTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -492,6 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masonmark.MasonTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasonTestApp.app/Contents/MacOS/MasonTestApp";
 			};
 			name = Debug;
@@ -505,6 +518,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.masonmark.MasonTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasonTestApp.app/Contents/MacOS/MasonTestApp";
 			};
 			name = Release;
@@ -513,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -520,6 +536,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

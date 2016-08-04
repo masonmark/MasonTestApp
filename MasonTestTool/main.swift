@@ -4,7 +4,7 @@ import Foundation
 
 print("Hello!")
 
-let ping = Task.run("/sbin/ping", arguments: ["-c", "1", "masonmark.com"])
+let ping = TaskWrapper.run("/sbin/ping", arguments: ["-c", "1", "masonmark.com"])
 
 print( ping )
 
